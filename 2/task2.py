@@ -12,4 +12,3 @@ def write_order_to_json(item, quantity, price, buyer, date):
         json.dump(data, jw, indent=4)
 
 write_order_to_json(1,1,1,1,1)
-    create_csv(files)
